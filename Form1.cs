@@ -67,5 +67,10 @@ namespace SAE3_Checksum
                 MessageBox.Show("Erreur lors du calcul : " + ex.Message, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -183,6 +183,174 @@
   <data name="&gt;&gt;TB_Resultat.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>TBPG_Calculateur</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TB_Entete.Name" xml:space="preserve">
+    <value>TB_Entete</value>
+  </data>
+  <data name="&gt;&gt;TB_Entete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TB_Entete.Parent" xml:space="preserve">
+    <value>TBPG_Calculateur</value>
+  </data>
+  <data name="&gt;&gt;TB_Entete.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TBPG_Calculateur.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="TBPG_Calculateur.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TBPG_Calculateur.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 303</value>
+  </data>
+  <data name="TBPG_Calculateur.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TBPG_Calculateur.Text" xml:space="preserve">
+    <value>Calculateur</value>
+  </data>
+  <data name="&gt;&gt;TBPG_Calculateur.Name" xml:space="preserve">
+    <value>TBPG_Calculateur</value>
+  </data>
+  <data name="&gt;&gt;TBPG_Calculateur.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TBPG_Calculateur.Parent" xml:space="preserve">
+    <value>TBCTRL_Onglets</value>
+  </data>
+  <data name="&gt;&gt;TBPG_Calculateur.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 140</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 144</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Calculateur de checksum
+Dans le cadre de la SAÉ 2.03
+
+Groupe E
+Mattéo LUCAS - Tom Podsadni
+Sasha NAGUET - Kilian Daboval
+Antonin GENELOT - Raphaël MONT
+
+1ère année de BUT Informatique (2024-2025)
+</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>TBPG_Credits</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 16</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>TBPG_Credits</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TBPG_Credits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="TBPG_Credits.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TBPG_Credits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 303</value>
+  </data>
+  <data name="TBPG_Credits.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TBPG_Credits.Text" xml:space="preserve">
+    <value>Crédits</value>
+  </data>
+  <data name="&gt;&gt;TBPG_Credits.Name" xml:space="preserve">
+    <value>TBPG_Credits</value>
+  </data>
+  <data name="&gt;&gt;TBPG_Credits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TBPG_Credits.Parent" xml:space="preserve">
+    <value>TBCTRL_Onglets</value>
+  </data>
+  <data name="&gt;&gt;TBPG_Credits.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TBCTRL_Onglets.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TBCTRL_Onglets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TBCTRL_Onglets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 332</value>
+  </data>
+  <data name="TBCTRL_Onglets.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TBCTRL_Onglets.Name" xml:space="preserve">
+    <value>TBCTRL_Onglets</value>
+  </data>
+  <data name="&gt;&gt;TBCTRL_Onglets.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TBCTRL_Onglets.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TBCTRL_Onglets.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -242,84 +410,6 @@
   </data>
   <data name="&gt;&gt;TB_Entete.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="TBPG_Calculateur.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="TBPG_Calculateur.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TBPG_Calculateur.Size" type="System.Drawing.Size, System.Drawing">
-    <value>371, 303</value>
-  </data>
-  <data name="TBPG_Calculateur.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="TBPG_Calculateur.Text" xml:space="preserve">
-    <value>Calculateur</value>
-  </data>
-  <data name="&gt;&gt;TBPG_Calculateur.Name" xml:space="preserve">
-    <value>TBPG_Calculateur</value>
-  </data>
-  <data name="&gt;&gt;TBPG_Calculateur.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TBPG_Calculateur.Parent" xml:space="preserve">
-    <value>TBCTRL_Onglets</value>
-  </data>
-  <data name="&gt;&gt;TBPG_Calculateur.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="TBPG_Credits.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="TBPG_Credits.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TBPG_Credits.Size" type="System.Drawing.Size, System.Drawing">
-    <value>371, 313</value>
-  </data>
-  <data name="TBPG_Credits.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="TBPG_Credits.Text" xml:space="preserve">
-    <value>Crédits</value>
-  </data>
-  <data name="&gt;&gt;TBPG_Credits.Name" xml:space="preserve">
-    <value>TBPG_Credits</value>
-  </data>
-  <data name="&gt;&gt;TBPG_Credits.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TBPG_Credits.Parent" xml:space="preserve">
-    <value>TBCTRL_Onglets</value>
-  </data>
-  <data name="&gt;&gt;TBPG_Credits.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="TBCTRL_Onglets.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="TBCTRL_Onglets.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="TBCTRL_Onglets.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 332</value>
-  </data>
-  <data name="TBCTRL_Onglets.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;TBCTRL_Onglets.Name" xml:space="preserve">
-    <value>TBCTRL_Onglets</value>
-  </data>
-  <data name="&gt;&gt;TBCTRL_Onglets.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TBCTRL_Onglets.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;TBCTRL_Onglets.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -631,8 +721,14 @@
         TkSuQmCC
 </value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>397, 379</value>
+  </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 379</value>
+    <value>397, 379</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Calculateur de checksum</value>

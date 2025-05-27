@@ -36,8 +36,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.TB_Entete = new System.Windows.Forms.TextBox();
             this.TBPG_Credits = new System.Windows.Forms.TabPage();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.TBCTRL_Onglets.SuspendLayout();
             this.TBPG_Calculateur.SuspendLayout();
+            this.TBPG_Credits.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // BTN_Calcul
@@ -85,9 +89,24 @@
             // 
             // TBPG_Credits
             // 
+            this.TBPG_Credits.Controls.Add(this.label2);
+            this.TBPG_Credits.Controls.Add(this.pictureBox1);
             resources.ApplyResources(this.TBPG_Credits, "TBPG_Credits");
             this.TBPG_Credits.Name = "TBPG_Credits";
             this.TBPG_Credits.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SAE3_Checksum.Properties.Resources.logo;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // FORM_Calcul
             // 
@@ -99,6 +118,9 @@
             this.TBCTRL_Onglets.ResumeLayout(false);
             this.TBPG_Calculateur.ResumeLayout(false);
             this.TBPG_Calculateur.PerformLayout();
+            this.TBPG_Credits.ResumeLayout(false);
+            this.TBPG_Credits.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -112,6 +134,8 @@
         private System.Windows.Forms.TabPage TBPG_Credits;
         private System.Windows.Forms.TextBox TB_Entete;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
