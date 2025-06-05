@@ -40,33 +40,34 @@ namespace SAE3_Checksum
         {
             try
             {
-                List<ushort> header = new List<ushort>();
-                string[] inputWords = TB_Entete.Text.Split(new[] { ' ', '\t', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+                List<ushort> entete = new List<ushort>();
+                string[] motsSaisis = TB_Entete.Text.Split(new[] { ' ', '\t', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
 
-                if (inputWords.Length != 9)
+                if (motsSaisis.Length != 9)
                 {
                     MessageBox.Show("Veuillez entrer exactement 9 valeurs hexadécimales séparées par des espaces.", "Erreur de saisie", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
-                foreach (string hex in inputWords)
+                foreach (string hex in motsSaisis)
                 {
-                    if (!ushort.TryParse(hex, System.Globalization.NumberStyles.HexNumber, null, out ushort value))
+                    if (!ushort.TryParse(hex, System.Globalization.NumberStyles.HexNumber, null, out ushort valeur))
                     {
                         MessageBox.Show($"Valeur hexadécimale invalide : \"{hex}\"", "Erreur de format", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
-                    header.Add(value);
+                    entete.Add(valeur);
                 }
 
-                ushort checksum = (ushort)CalculateChecksum(header);
-                TB_Resultat.Text = checksum.ToString("X4");
+                ushort sommeControle = (ushort)CalculateChecksum(entete);
+                TB_Resultat.Text = sommeControle.ToString("X4");
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Erreur lors du calcul : " + ex.Message, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
 
         private void label2_Click(object sender, EventArgs e)
         {
